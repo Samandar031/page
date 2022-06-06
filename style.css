@@ -1,5 +1,10 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700&display=swap');
+
+
 html{
   font-size: 62.5%;
+  font-family: 'Open Sans', sans-serif;
 }
 
 * {
@@ -102,3 +107,57 @@ html{
   height: 35rem;
   padding: 2rem;
 }
+
+/* upgrade */
+
+.details_upgrade_title{
+  font-size: 3rem;
+  margin: 2rem;
+}
+
+.details_upgrade_mini{
+  display: flex;
+  justify-content: space-between;
+  margin: 2rem;
+  padding: 1rem;
+}
+
+.details_upgrade_content{
+  display: flex;
+  gap: 1rem
+}
+
+/* right */
+
+.details_price_title{
+  font-size: 2rem;
+  font-weight: 550;
+}
+
+.details_price_card_header, .details_price_card_body_item{
+  display: flex;
+  justify-content: space-between;
+  font-size: 1.4rem;
+  margin: 1rem 0;
+}
+
+.details_price_button{
+  background-color: #25c178;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem;
+  border-radius: 0.1rem;
+  color: white;
+  font-size: 1.3rem;
+}
+
+.details_price_footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem;
+  border-radius: 0.1rem;
+  font-size: 1.3rem;
+}
+
